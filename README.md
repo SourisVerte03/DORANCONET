@@ -1,41 +1,40 @@
-### HACKATHON SAISON-01-SESSION-02
-### Sujet : Développement d'une Application de Réseau Social Simplifié
+### HACKATHON-SAISON-01-SESSION-02  
+### Sujet : Développement d'une Application de Réseau Social Interne Scolaire
 
 #### Description générale
-Développez une application web de type réseau social, inspirée de Twitter, permettant aux utilisateurs de partager des messages courts visibles sur un mur public accessible à tous. L'objectif est de concevoir une plateforme simple et engageante qui offre un espace d'expression tout en gérant les utilisateurs et leur contenu.
+Créez une application web de type réseau social simplifié, inspirée de Twitter et Reddit, permettant aux utilisateurs de partager des publications courtes, visibles sur un mur public commun à tous les membres. L’objectif est de concevoir une plateforme simple et engageante offrant un espace d'expression aux utilisateurs, tout en intégrant un système de gestion des utilisateurs et de modération.
 
 #### Fonctionnalités principales
 1. **Mur Public Commun :**
-   - Un flux de messages partagés par tous les utilisateurs, visible dès la page d'accueil.
-   - Les messages sont affichés en ordre chronologique (les plus récents en haut).
-   - Chaque message comporte le nom d'utilisateur, le contenu du message, et la date de publication.
+   - Un flux de publications partagé par tous les utilisateurs, visible dès la page d'accueil.
+   - Les publications sont affichées en ordre chronologique (les plus récentes en haut).
+   - Chaque publication comporte le pseudonyme de l'utilisateur, le contenu du message et la date de publication.
 
-2. **Système de Gestion d'Utilisateur :**
-   - **Inscription** et **Connexion** des utilisateurs avec gestion des informations de base (nom d'utilisateur, email, mot de passe).
-   - **Mise à jour du profil** : L'utilisateur peut modifier son nom, son email, ou son mot de passe.
-   - **Déconnexion** sécurisée.
+2. **Système de Gestion des Utilisateurs :**
+   - **Inscription** et **Connexion** : gestion des informations de base (Nom, Prénom, pseudonyme, email, photo de profil, mot de passe).
+   - **Mise à jour du profil** : possibilité pour l'utilisateur de modifier son nom, prénom, pseudonyme, email, photo de profil et mot de passe.
+   - **Déconnexion sécurisée**.
+   - **Suppression du compte** : désactivation en base de données avec rétention des données pendant 1 an.
 
-3. **Création et Suppression de Messages :**
-   - Les utilisateurs connectés peuvent publier des messages sur le mur public.
-   - Ils peuvent également supprimer leurs propres messages, mais pas ceux des autres utilisateurs.
-   
-4. **Interaction Sociale :**
-   - Fonction de **like** sur les messages.
-   - Compteur de likes affiché pour chaque message.
-   
-5. **Modération :**
-   - Un utilisateur avec des droits d'administrateur peut modérer le contenu du mur public en supprimant les messages inappropriés.
+3. **Gestion des Publications et Interactions :**
+   - Création et suppression de publications : les utilisateurs connectés peuvent publier et supprimer leurs propres messages.
+   - Fonction de **like** sur les publications, avec affichage d’un compteur de likes pour chaque message.
+
+4. **Modération :**
+   - Un utilisateur ayant des droits d'administrateur peut modérer le contenu du mur public en supprimant les messages inappropriés.
 
 #### Structure Technique
-- **Back-end en PHP** : gestion des utilisateurs, authentification, traitement des messages, etc.
-- **Base de données MySQL** : stockage des utilisateurs, messages, et interactions (likes).
-- **Architecture MVC** : Séparation en trois parties principales pour une meilleure organisation du code.
-  - **Modèle** : gère les données et les interactions avec la base de données.
-  - **Vue** : gère la présentation des données (HTML et CSS) Utilisation de Flexbox.
-  - **Contrôleur** : interagit avec le modèle et la vue pour répondre aux actions des utilisateurs.
+- **Back-end en PHP** : pour la gestion des utilisateurs, l'authentification, le traitement des messages, etc.
+- **Base de données MySQL** : pour le stockage des utilisateurs, des messages et des interactions (likes).
+- **Architecture MVC** : séparation en trois parties pour une meilleure organisation et maintenabilité du code.
+  - **Modèle** : gère les données et interactions avec la base de données.
+  - **Vue** : présente les données (HTML et CSS), avec mise en page flexible utilisant Flexbox.
+  - **Contrôleur** : coordonne les actions entre le modèle et la vue pour répondre aux demandes des utilisateurs.
 
 #### Objectifs de l'Évaluation
 - **Qualité de l'interface utilisateur** : interface intuitive et responsive.
-- **Bonne structuration du code** : séparation des responsabilités dans une architecture MVC.
-- **Sécurité** : protection contre les injections SQL, Protection contre les attaques XSS, mots de passe sécurisés "Hashés", vérification des droits d'accès.
-- **Documentation** : un README explicatif avec les instructions pour lancer l'application et les explications des choix techniques.
+- **Structuration du code** : respect de l'architecture MVC avec séparation claire des responsabilités.
+- **Sécurité** : protection contre les injections SQL, prévention des attaques XSS, hachage sécurisé des mots de passe et vérification rigoureuse des droits d'accès.
+- **Documentation** : un README clair et explicatif avec les instructions pour lancer l'application et les justifications des choix techniques.
+
+---
