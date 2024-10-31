@@ -31,11 +31,11 @@ Développez une application web de type réseau social, inspirée de Twitter, pe
 - **Base de données MySQL** : stockage des utilisateurs, messages, et interactions (likes).
 - **Architecture MVC** : Séparation en trois parties principales pour une meilleure organisation du code.
   - **Modèle** : gère les données et les interactions avec la base de données.
-  - **Vue** : gère la présentation des données (HTML et CSS).
+  - **Vue** : gère la présentation des données (HTML et CSS) Utilisation de Flexbox.
   - **Contrôleur** : interagit avec le modèle et la vue pour répondre aux actions des utilisateurs.
 
 #### Objectifs de l'Évaluation
 - **Qualité de l'interface utilisateur** : interface intuitive et responsive.
 - **Bonne structuration du code** : séparation des responsabilités dans une architecture MVC.
-- **Sécurité** : protection contre les injections SQL, mots de passe sécurisés, vérification des droits d'accès.
+- **Sécurité** : protection contre les injections SQL, Protection contre les attaques XSS, mots de passe sécurisés "Hashés", vérification des droits d'accès.
 - **Documentation** : un README explicatif avec les instructions pour lancer l'application et les explications des choix techniques.
