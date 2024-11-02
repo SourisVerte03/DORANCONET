@@ -18,6 +18,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
 
 3. **Gestion des Publications et Interactions :**
    - Création et suppression de publications : les utilisateurs connectés peuvent publier et supprimer leurs propres messages.
+   - Fonction de **Commentaires** sur les publications
    - Fonction de **like** sur les publications, avec affichage d’un compteur de likes pour chaque message.
 
 4. **Modération :**
