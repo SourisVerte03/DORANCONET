@@ -2,7 +2,7 @@
 ### Sujet : Développement d'une Application de Réseau Social Interne Scolaire
 
 #### Description générale
-Créez une application web de type réseau social simplifié, inspirée de Twitter et Reddit, permettant aux utilisateurs de partager des publications courtes, visibles sur un mur public commun à tous les membres. L’objectif est de concevoir une plateforme simple et engageante offrant un espace d'expression aux utilisateurs, tout en intégrant un système de gestion des utilisateurs et de modération.
+Créez une application web de type réseau social simplifié, inspirée de Twitter et Reddit "Sans les sub-reddit", permettant aux utilisateurs de partager des publications courtes, visibles sur un mur public commun à tous les membres. L’objectif est de concevoir une plateforme simple et engageante offrant un espace d'expression aux étudiants de Doranco, tout en intégrant un système de gestion d'utilisateurs et de modération.
 
 #### Fonctionnalités principales
 1. **Mur Public Commun :**
@@ -39,3 +39,5 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
 - **Documentation** : un README clair et explicatif avec les instructions pour lancer l'application et les justifications des choix techniques.
 
 ---
+**Itération-#2**  
+- **Ajouter un backoffice Administrateur:**
