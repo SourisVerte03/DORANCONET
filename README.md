@@ -3,7 +3,7 @@
 
 #### Itération-01  
 #### Description générale
-Créez une application web de type réseau social simplifié, inspirée de Twitter et Reddit "Sans les sub-reddit", permettant aux utilisateurs de partager des publications courtes, visibles sur un mur public commun à tous les membres. L’objectif est de concevoir une plateforme simple et engageante offrant un espace d'expression aux étudiants de Doranco, tout en intégrant un système de gestion d'utilisateurs et de modération.
+Créez une application web de type réseau social simplifié, inspirée de Twitter et Reddit "Sans les sub-reddit", permettant aux utilisateurs de partager des publications courtes, visibles sur un mur public commun à tous les membres. L’objectif est de concevoir une plateforme simple et engageante offrant un espace d'expression aux étudiants de Doranco, tout en intégrant un système de gestion d'utilisateurs et de modération "sur l'iteration-02".
 
 #### Fonctionnalités principales
 1. **Mur Public Commun :**
