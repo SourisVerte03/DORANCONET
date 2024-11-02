@@ -11,10 +11,10 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
    - Chaque publication comporte le pseudonyme de l'utilisateur, le contenu du message et la date de publication.
 
 2. **Système de Gestion des Utilisateurs :**
-   - **Inscription** et **Connexion** : gestion des informations de base (Nom, Prénom, pseudonyme, email, photo de profil, mot de passe).
-   - **Mise à jour du profil** : possibilité pour l'utilisateur de modifier son nom, prénom, pseudonyme, email, photo de profil et mot de passe.
+   - **Inscription** et **Connexion** : gestion des informations de base (Nom, Prénom, date de naissance, pseudonyme, email, photo de profil, mot de passe).
+   - **Mise à jour du profil** : possibilité pour l'utilisateur de modifier son nom, prénom,date de naissance, pseudonyme, email, photo de profil et mot de passe.
    - **Déconnexion sécurisée**.
-   - **Suppression du compte** : désactivation en base de données avec rétention des données pendant 1 an.
+   - **Suppression du compte** : désactivation en base de données avec rétention des données pendant 1 an "Suivant les recommandation de la CNIL".
 
 3. **Gestion des Publications et Interactions :**
    - Création et suppression de publications : les utilisateurs connectés peuvent publier et supprimer leurs propres messages.
@@ -25,7 +25,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
 
 #### Structure Technique
 - **Back-end en PHP** : pour la gestion des utilisateurs, l'authentification, le traitement des messages, etc.
-- **Base de données MySQL** : pour le stockage des utilisateurs, des messages et des interactions (likes).
+- **Base de données MySQL** : pour le stockage des utilisateurs, des publications, et des interactions "Commentaires", "Like".
 - **Architecture MVC** : séparation en trois parties pour une meilleure organisation et maintenabilité du code.
   - **Modèle** : gère les données et interactions avec la base de données.
   - **Vue** : présente les données (HTML et CSS), avec mise en page flexible utilisant Flexbox.
