@@ -24,6 +24,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
 
 4. **Modération :**
    - Un utilisateur ayant des droits d'administrateur peut modérer le contenu du mur public en supprimant les messages inappropriés.
+   - Un utilisateur ayant des droits d'administrateur peut gerer les utilisateur, désactiver un compte, changer les roles des comptes des utilisateurs  
 
 #### Structure Technique
 - **Back-end en PHP** : pour la gestion des utilisateurs, l'authentification, le traitement des messages, etc.
