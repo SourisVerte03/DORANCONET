@@ -34,7 +34,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
 #### Objectifs de l'Évaluation
 - **Qualité de l'interface utilisateur** : interface intuitive et responsive.
 - **Structuration du code** : respect de l'architecture MVC avec séparation claire des responsabilités.
-- **Sécurité** : protection contre les injections SQL, prévention des attaques XSS, hashage sécurisé des mots de passe et vérification rigoureuse des droits d'accès.
+- **Sécurité** : protection contre les injections SQL, prévention des attaques XSS, CSRF Token, hashage sécurisé des mots de passe et vérification rigoureuse des droits d'accès.
 - **Documentation** : un README clair et explicatif avec les instructions pour lancer l'application et les justifications des choix techniques.
 
 ---
