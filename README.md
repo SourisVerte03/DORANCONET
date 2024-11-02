@@ -15,7 +15,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
    - **Inscription** et **Connexion** : gestion des informations de base (Nom, Prénom, date de naissance, pseudonyme, email, photo de profil, mot de passe).
    - **Mise à jour du profil** : possibilité pour l'utilisateur de modifier son nom, prénom,date de naissance, pseudonyme, email, photo de profil et mot de passe.
    - **Déconnexion sécurisée**.
-   - **Suppression du compte** : désactivation en base de données avec rétention des données pendant 1 an "Suivant les recommandation de la CNIL".
+   - **Suppression du compte** : désactivation en base de données avec rétention des données pendant 1 an "Suivant les recommandations de la CNIL", mettre en place un trigger pour effacer toutes les données personnelle de l'utilisateur ainsi que ses publication an apres la desactivation du compte.
 
 3. **Gestion des Publications et Interactions :**
    - Création et suppression de publications : les utilisateurs connectés peuvent publier et supprimer leurs propres messages.
