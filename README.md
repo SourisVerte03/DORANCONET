@@ -32,6 +32,7 @@ Créez une application web de type réseau social simplifié, inspirée de Twitt
   - **Modèle** : gère les données et interactions avec la base de données.
   - **Vue** : présente les données (HTML et CSS), avec mise en page flexible utilisant Flexbox.
   - **Contrôleur** : coordonne les actions entre le modèle et la vue pour répondre aux demandes des utilisateurs.
+  - **Point d'entrée de l'application :** un fichier index.php à la racine du projet comme point d'entrée de l'application  
 
 #### Objectifs de l'Évaluation
 - **Qualité de l'interface utilisateur** : interface intuitive et responsive.
