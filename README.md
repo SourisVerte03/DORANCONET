@@ -94,5 +94,5 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Responsive Design** : Fonctionnement optimal sur différents types d'appareils.
 
 #### 8. **Livrables**
-- Code source complet.
-- Rapport de sécurité détaillant les méthodes et tests.
+- Code source complet versionné et testable.
+- Diagramme de classe et MPD de la base de donnée  
