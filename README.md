@@ -34,12 +34,13 @@ Le développement couvre la création d'une application web suivant l'architectu
   - Système de likes visible avec compteur associé à chaque publication.
 
 #### 4. **Contraintes Techniques**
+- **Utilisation de chatgpt et d'iA :** Strictement interdit, vous etes dans un contexte d'entreprise ou le code est propriétaire.  "Meme si pour le hackathon, le code est opensource"  
 - **Back-end** : PHP pour la gestion des requêtes et des traitements serveur.
 - **Base de Données** : MySQL pour stocker utilisateurs, publications, commentaires, et likes.
 - **Architecture MVC** :
   - **Modèle** : gestion des interactions avec la base de données.
-  - **Vue** : présentation (HTML, CSS).
-  - **Contrôleur** : coordination entre modèle et vue.
+  - **Vue** : présentation (HTML, CSS, Vanilla Javascript).  
+  - **Contrôleur** : coordination entre modèle et vue.  
   - **Point d'entrée** : `index.php`.
 
 #### 5. **Security By Design**
