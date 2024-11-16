@@ -2,12 +2,12 @@
 ### Cahier des Charges : Développement d'une Application de Réseau Social Interne Scolaire
 
 #### 1. **Contexte et Objectifs**
-Le projet vise à créer un espace d'échange et de partage simplifié entre les étudiants de Doranco, inspiré des concepts de Twitter et Reddit (sans les sub-reddits). L'application doit offrir une plateforme intuitive pour la publication de messages et les interactions entre utilisateurs.
+Le projet vise à créer un espace d'échange et de partage simplifié entre les étudiants de Doranco, inspiré des concepts de Twitter et Reddit (sans les sub-reddits). L'application doit offrir une plateforme intuitive pour la publication de contenu et les interactions entre utilisateurs.
 
 #### 2. **Périmètre du Projet**
-Le développement couvre la création d'une application web suivant l'architecture MVC, avec des fonctionnalités de gestion des utilisateurs, de publications, de commentaires, et d'administration sécurisée.
+Le développement couvre la création d'une application web suivant l'architecture MVC, avec des fonctionnalités de gestion d'utilisateurs, de publications, de commentaires, et de likes.
 
-#### 3. **Fonctionnalités Détails**
+#### 3. **Descriptif fonctionnel**
 ##### a. **Mur Public Commun**
 - **Fonctionnalité** : Un flux de publications accessible à tous, affiché de manière chronologique.
 - **Détails** :
@@ -33,7 +33,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Likes** :
   - Système de likes visible avec compteur associé à chaque publication.
 
-#### 4. **Structure Technique**
+#### 4. **Contraintes Techniques**
 - **Back-end** : PHP pour la gestion des requêtes et des traitements serveur.
 - **Base de Données** : MySQL pour stocker utilisateurs, publications, commentaires, et likes.
 - **Architecture MVC** :
@@ -42,8 +42,8 @@ Le développement couvre la création d'une application web suivant l'architectu
   - **Contrôleur** : coordination entre modèle et vue.
   - **Point d'entrée** : `index.php`.
 
-#### 5. **Sécurité**
-- **Protection contre les Injections SQL** : Utilisation de requêtes préparées.
+#### 5. **Security By Design**
+- **Protection contre les Injections SQL** : Utilisation de requêtes préparées, try-catch...
 - **Prévention des Attaques XSS** : Nettoyage des entrées utilisateur.
 - **Protection CSRF** : Utilisation de tokens CSRF pour les formulaires sensibles.
 - **Hashage des Mots de Passe** : Utilisation de `bcrypt`.
@@ -94,7 +94,7 @@ Le développement couvre la création d'une application web suivant l'architectu
      - Message de confirmation avant suppression.
      - Données marquées comme désactivées en base de données, suppression automatique après 1 an.
 
-#### 7. **Contraintes et Recommandations**
+#### 7. **Recommandations**
 - **Sécurité prioritaire** : L'application doit inclure des mesures de protection dès le début du développement.
 - **Conformité CNIL** : Pour la gestion des données personnelles.
 - **Responsive Design** : Fonctionnement optimal sur différents types d'appareils.
