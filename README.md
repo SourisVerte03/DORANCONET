@@ -51,37 +51,43 @@ Le développement couvre la création d'une application web suivant l'architectu
 
 #### 6. **User Stories et Critères de Validation**
 
-**Titre : Gestion Multi-Adresses pour Clients Réguliers**
-
 1. **User Story 1 : Inscription d'un Utilisateur**
    - **En tant qu'utilisateur**, je veux m'inscrire avec mes informations personnelles afin de pouvoir accéder à l'application.
    - **Critères de validation** :
-     - L'utilisateur doit pouvoir saisir son nom, prénom, date de naissance, pseudonyme, email, photo de profil et mot de passe.
-     - Validation des champs requis (email formaté, mot de passe sécurisé).
+     - L'utilisateur doit pouvoir saisir son nom, prénom, date de naissance, pseudonyme, email, photo de profil et mot de passe lors de l'inscription.
+     - Validation des champs requis (email formaté, mot de passe sécurisé avec un minimum de 8 caractères alphanumériques).
      - Affichage d'un message de confirmation d'inscription réussie.
 
-2. **User Story 2 : Publication de Messages**
-   - **En tant qu'utilisateur**, je veux pouvoir publier des messages afin de partager mes idées avec les autres.
+2. **User Story 2 : Connexion d'un Utilisateur**
+   - **En tant qu'utilisateur**, je veux pouvoir me connecter avec mes identifiants afin d'accéder à mon compte et interagir sur la plateforme.
+   - **Critères de validation** :
+     - L'utilisateur doit saisir un email et un mot de passe valides.
+     - Validation des informations et connexion sécurisée.
+     - Affichage d'un message de confirmation de connexion réussie.
+     - Redirection vers le mur public après connexion.
+
+3. **User Story 3 : Publication**
+   - **En tant qu'utilisateur connecté**, je veux pouvoir publier sur le mur de l'application afin de partager mes idées avec les autres.
    - **Critères de validation** :
      - L'utilisateur doit pouvoir poster un message texte.
      - Le message apparaît sur le mur public après validation.
      - La publication contient le pseudonyme de l'utilisateur, le contenu et la date.
 
-3. **User Story 3 : Commentaire sur une Publication**
-   - **En tant qu'utilisateur**, je veux commenter les publications des autres afin d'interagir avec eux.
+4. **User Story 4 : Commentaire sur une Publication**
+   - **En tant qu'utilisateur connecté**, je veux commenter les publications des autres afin d'interagir avec eux.
    - **Critères de validation** :
      - L'utilisateur doit pouvoir commenter une publication existante.
      - Le commentaire apparaît sous la publication concernée, avec pseudonyme et date.
      - Les commentaires vides doivent être bloqués.
 
-4. **User Story 4 : Aimer une Publication**
-   - **En tant qu'utilisateur**, je veux aimer des publications afin de montrer mon intérêt.
+5. **User Story 5 : Aimer une Publication**
+   - **En tant qu'utilisateur connecté**, je veux aimer des publications afin de montrer mon intérêt.
    - **Critères de validation** :
      - L'utilisateur peut cliquer sur un bouton "like".
      - Le compteur de likes s'incrémente et montre le total.
      - Retrait du like possible, avec décrémentation du compteur.
 
-5. **User Story 5 : Suppression de Compte**
+6. **User Story 6 : Suppression de Compte**
    - **En tant qu'utilisateur**, je veux pouvoir supprimer mon compte afin de quitter la plateforme tout en sachant que mes données seront protégées.
    - **Critères de validation** :
      - Option accessible pour la suppression de compte.
@@ -92,7 +98,8 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Sécurité prioritaire** : L'application doit inclure des mesures de protection dès le début du développement.
 - **Conformité CNIL** : Pour la gestion des données personnelles.
 - **Responsive Design** : Fonctionnement optimal sur différents types d'appareils.
+- **Règles de nommage** : Upper Camel Case pour les classes, Lower Camel Case pour les méthodes, Snake Case pour le CSS.
 
 #### 8. **Livrables**
 - Code source complet versionné et testable.
-- Diagramme de classe et MPD de la base de donnée  
+- Diagramme de classe et MPD ou schéma de la base de données.
