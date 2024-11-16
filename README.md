@@ -47,7 +47,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Protection contre les Injections SQL** : Utilisation de requêtes préparées, try-catch...
 - **Prévention des Attaques XSS** : Nettoyage des entrées utilisateur.
 - **Protection CSRF** : Utilisation de tokens CSRF pour les formulaires sensibles.
-- **Hashage des Mots de Passe** : Utilisation de `bcrypt`.
+- **Hashage des Mots de Passe** : Ajout d'un Regex pour vérifier et valider la complixité des mots de passes, et utilisation de `bcrypt` ou toute autre librarie de hash, un sel serait un plus non négligeable.  
 - **Vérification des Accès** : Contrôles stricts pour restreindre les actions aux utilisateurs autorisés.
 
 #### 6. **User Stories et Critères de Validation**
