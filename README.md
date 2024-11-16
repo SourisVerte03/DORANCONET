@@ -38,9 +38,9 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Back-end** : PHP pour la gestion des requêtes et des traitements serveur.
 - **Base de Données** : MySQL pour stocker utilisateurs, publications, commentaires, et likes.
 - **Architecture MVC** :
-  - **Modèle** : gestion des interactions avec la base de données.
-  - **Vue** : présentation (HTML, CSS, Vanilla Javascript).  
-  - **Contrôleur** : coordination entre modèle et vue.  
+  - **Models** : Couche "Dossier" de gestion des interactions avec la base de données.
+  - **Views** : Couche "Dossier" présentation (HTML, CSS, Vanilla Javascript).  
+  - **Controllers** : Couche "Dossier" coordination entre l'utilisateur, le modèle et la couche vue.  
   - **Point d'entrée** : `index.php`.
 
 #### 5. **Security By Design**
