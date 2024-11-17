@@ -107,5 +107,6 @@ Le développement couvre la création d'une application web suivant l'architectu
 
  ### Organigramme : 
 
-![image](https://github.com/user-attachments/assets/630e2184-357d-48b9-aa3c-51c8eb220dfb)
+![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/b8cdade7-2b26-4b0c-b389-3317c12dc346)
+
 
