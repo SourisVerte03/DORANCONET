@@ -104,3 +104,8 @@ Le développement couvre la création d'une application web suivant l'architectu
 #### 8. **Livrables**
 - Code source complet versionné et testable.
 - Diagramme de classe et MPD ou schéma de la base de données.
+
+ ### Organigramme : 
+
+![image](https://github.com/user-attachments/assets/630e2184-357d-48b9-aa3c-51c8eb220dfb)
+
