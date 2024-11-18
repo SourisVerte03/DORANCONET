@@ -106,8 +106,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 - Diagramme de classe et MPD ou schéma de la base de données.
 
  ### Organigramme : 
-
-![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/b8cdade7-2b26-4b0c-b389-3317c12dc346)  
+![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/bef39440-29d5-4dad-97e7-240bfac55cee)
 
 ### 1. **PDG / CEO (Président Directeur Général / Chief Executive Officer)**
 - **Responsabilités** :
