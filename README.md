@@ -107,6 +107,112 @@ Le développement couvre la création d'une application web suivant l'architectu
 
  ### Organigramme : 
 
-![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/b8cdade7-2b26-4b0c-b389-3317c12dc346)
+![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/b8cdade7-2b26-4b0c-b389-3317c12dc346)  
+
+### 1. **PDG / CEO (Président Directeur Général / Chief Executive Officer)**
+- **Responsabilités** :
+  - Définir la vision et la stratégie globale de l'entreprise.
+  - Prendre les décisions majeures pour orienter la direction de l'entreprise.
+  - Assurer la croissance, la rentabilité et la pérennité de l'entreprise.
+- **Relations avec les autres** :
+  - Supervise le CPO (Chief Product Officer) et le CPT (Chief Product Tester).
+  - Interagit avec les autres cadres pour aligner la stratégie produit et la qualité avec les objectifs globaux de l'entreprise.
+
+### 2. **CPO (Chief Product Officer / Directeur de Produit)**
+- **Responsabilités** :
+  - Définir et mettre en œuvre la stratégie produit.
+  - Superviser le développement des produits et leur cycle de vie complet.
+  - Collaborer avec les équipes internes pour s'assurer que les produits répondent aux besoins du marché.
+- **Relations avec les autres** :
+  - Rend compte au PDG.
+  - Collabore étroitement avec le chef de projet pour garantir que les projets sont en ligne avec la stratégie produit.
+  - Interagit avec le Product Owner (PO) et la MOA pour comprendre et intégrer les besoins des utilisateurs.
+
+### 3. **CPT (Chief Product Tester / Directeur des Tests de Produit)**
+- **Responsabilités** :
+  - Développer et superviser la stratégie de test et d'assurance qualité.
+  - Garantir que les produits respectent les normes de qualité avant leur mise en production.
+  - Gérer les équipes de testeurs et de QA.
+- **Relations avec les autres** :
+  - Rend compte au PDG.
+  - Supervise les testeurs et l'équipe QA.
+  - Travaille en collaboration avec le chef de projet pour intégrer les phases de test dans le planning du projet.
+
+### 4. **Chef de Projet**
+- **Responsabilités** :
+  - Planifier, coordonner et superviser la réalisation des projets.
+  - Gérer les ressources, les délais et le budget.
+  - Assurer la communication entre les différentes équipes et parties prenantes.
+- **Relations avec les autres** :
+  - Collabore avec le CPO pour garantir l'alignement du projet avec la stratégie produit.
+  - Interagit avec le Product Owner, le Scrum Master et la MOA pour coordonner les exigences et le flux de travail.
+  - Collabore avec le CPT pour intégrer les tests dans la planification.
+
+### 5. **PO (Product Owner)**
+- **Responsabilités** :
+  - Gérer le backlog produit et prioriser les fonctionnalités à développer.
+  - Définir les user stories et s'assurer que l'équipe de développement comprend les exigences.
+  - Agir en tant qu'interface entre les parties prenantes et l'équipe de développement.
+- **Relations avec les autres** :
+  - Collabore avec le chef de projet pour s'assurer que les tâches sont en phase avec la stratégie du projet.
+  - Travaille avec le Scrum Master pour organiser et gérer les sprints.
+  - Interagit avec la MOA pour s'assurer que les besoins métiers sont traduits en fonctionnalités réalisables.
+
+### 6. **SM (Scrum Master)**
+- **Responsabilités** :
+  - Faciliter la méthodologie Agile/Scrum et assurer que l'équipe respecte les pratiques Scrum.
+  - Éliminer les obstacles pour permettre à l'équipe de développement de progresser efficacement.
+  - Aider l'équipe à atteindre ses objectifs de sprint.
+- **Relations avec les autres** :
+  - Travaille avec le Product Owner pour planifier les sprints et prioriser les tâches.
+  - Collabore avec le chef de projet pour s'assurer que les délais et les processus sont respectés.
+  - Coordonne avec la MOA pour intégrer les besoins métiers dans le processus de développement.
+
+### 7. **MOA (Maîtrise d’Ouvrage)**
+- **Responsabilités** :
+  - Représenter les intérêts du client ou de l'utilisateur final.
+  - Définir les besoins métier et rédiger les spécifications fonctionnelles.
+  - Valider que les produits livrés répondent aux attentes et aux exigences.
+- **Relations avec les autres** :
+  - Collabore avec le Product Owner pour définir les priorités des fonctionnalités.
+  - Travaille avec le chef de projet pour assurer la bonne intégration des exigences métier.
+  - Peut interagir avec le Lead Tech et l'équipe de développement pour clarifier les besoins.
+
+### 8. **Lead Tech**
+- **Responsabilités** :
+  - Diriger l'équipe de développement sur le plan technique.
+  - Garantir la qualité et la cohérence du code.
+  - Proposer des solutions techniques aux problèmes rencontrés.
+- **Relations avec les autres** :
+  - Collabore avec l'équipe de développement pour fournir un soutien technique.
+  - Interagit avec le Product Owner pour clarifier les aspects techniques des user stories.
+  - Travaille avec le chef de projet pour aligner la mise en œuvre technique avec les objectifs du projet.
+
+### 9. **Équipe de Développement (Équipe de Dev)**
+- **Responsabilités** :
+  - Concevoir, développer, tester et mettre en œuvre les fonctionnalités du produit.
+  - Travailler de manière autonome tout en respectant les consignes du Lead Tech et du Scrum Master.
+- **Relations avec les autres** :
+  - Collabore avec le Product Owner pour comprendre les tâches assignées.
+  - Travaille sous la supervision du Lead Tech pour l'aspect technique et du Scrum Master pour les méthodes de travail.
+  - Participe aux revues de sprint et aux réunions Agile.
+
+### 10. **Testeurs**
+- **Responsabilités** :
+  - Exécuter les tests manuels et automatisés pour garantir que les fonctionnalités répondent aux spécifications.
+  - Documenter les résultats des tests et signaler les anomalies.
+- **Relations avec les autres** :
+  - Travaillent sous la supervision du CPT.
+  - Collaborent avec l'équipe QA pour assurer la qualité continue des produits.
+  - Interagissent avec l'équipe de développement pour remonter les bugs et les points à corriger.
+
+### 11. **QA (Quality Assurance)**
+- **Responsabilités** :
+  - Définir et mettre en œuvre les processus de qualité.
+  - Superviser les tests et s'assurer que les produits respectent les normes de qualité définies.
+- **Relations avec les autres** :
+  - Collabore avec le CPT pour assurer la supervision des activités de test.
+  - Interagit avec les testeurs pour coordonner les efforts de test.
+  - Peut travailler avec le chef de projet pour inclure des points de qualité dans la planification du projet.
 
 
