@@ -41,7 +41,98 @@ Le développement couvre la création d'une application web suivant l'architectu
   - **Views** : Couche "Dossier" présentation (HTML, CSS, Vanilla Javascript).  
   - **Controllers** : Couche "Dossier" coordination entre l'utilisateur, le modèle et la couche vue.  
   - **Point d'entrée** : `index.php`.
+  
 
+├── index.php
+│
+├── /controllers
+│   ├── AuthController.php
+│   ├── UserController.php
+│   ├── PostController.php
+│   ├── CommentController.php
+│   └── LikeController.php
+│
+├── /models
+│   ├── UserModel.php
+│   ├── PostModel.php
+│   ├── CommentModel.php
+│   └── LikeModel.php
+│
+├── /views
+│   ├── login.php
+│   ├── register.php
+│   ├── create_post.php
+│   ├── view_posts.php
+│   ├── comment.php
+│   ├── header.php
+│   └── footer.php
+│
+├── /public
+│   └── /assets
+│       ├── /css
+│       │   └── style.css
+│       ├── /js
+│       │   └── script.js
+│       └── /img
+│           └── (images des utilisateurs)
+│
+├── /config
+│   └── database.php
+│
+└── .htaccess
+**Explications détaillées de l'architecture**  
+
+Voici une explication détaillée de chaque fichier et dossier dans l'architecture spécifiée :
+
+### 1. **index.php**
+- **Description** : C'est le point d'entrée principal de l'application. Il initialise l'application, gère le routage des requêtes vers les contrôleurs appropriés, et établit l'infrastructure nécessaire pour lancer l'application. 
+- **Rôle** : Traite la logique de redirection, inclut les fichiers nécessaires, et permet le chargement des contrôleurs en fonction des paramètres de la requête.
+
+### 2. **/controllers**
+- **Rôle général** : Ces fichiers contiennent la logique métier de l'application, servant d'intermédiaire entre les modèles (données) et les vues (interface utilisateur). Chaque contrôleur gère des actions spécifiques liées aux fonctionnalités de l'application.
+  
+  - **AuthController.php** : Gère les opérations liées à l'authentification des utilisateurs, telles que l'inscription, la connexion et la déconnexion. Il inclut la vérification des identifiants de l'utilisateur et l'enregistrement sécurisé des données.
+  - **UserController.php** : Contrôleur qui gère les opérations liées aux utilisateurs, comme la modification du profil, la suppression de compte et la récupération des informations utilisateur.
+  - **PostController.php** : Gère la création, la mise à jour, la suppression et l'affichage des publications. Il interagit avec `PostModel.php` pour récupérer ou modifier les données des publications.
+  - **CommentController.php** : S'occupe de la gestion des commentaires sur les publications, y compris l'ajout, la suppression, et l'affichage des commentaires. 
+  - **LikeController.php** : Contrôleur pour gérer les likes et les dislikes sur les publications. Il permet de liker, unliker, et met à jour le compteur de likes.
+
+### 3. **/models**
+- **Rôle général** : Ces fichiers gèrent les interactions avec la base de données. Ils contiennent les méthodes pour créer, lire, mettre à jour et supprimer des données.
+  
+  - **UserModel.php** : Représente et gère toutes les opérations liées aux utilisateurs dans la base de données. Cela inclut l'ajout de nouveaux utilisateurs, la vérification des identifiants et la récupération des détails de l'utilisateur.
+  - **PostModel.php** : Gère toutes les opérations liées aux publications, telles que l'insertion de nouvelles publications, la mise à jour des existantes et la récupération des publications à afficher sur le mur public.
+  - **CommentModel.php** : Représente et gère les opérations sur les commentaires, comme l'ajout de nouveaux commentaires, la suppression et la récupération des commentaires pour une publication spécifique.
+  - **LikeModel.php** : Gère la logique des interactions "like" dans la base de données, y compris l'ajout, la suppression et le comptage des likes sur une publication.
+
+### 4. **/views**
+- **Rôle général** : Les fichiers de ce dossier génèrent l'interface utilisateur et présentent les données fournies par les contrôleurs. Ils incluent du HTML, du CSS et parfois du JavaScript.
+  
+  - **login.php** : Page d'interface utilisateur pour permettre aux utilisateurs de se connecter à l'application. Elle inclut un formulaire de connexion avec les champs nécessaires.
+  - **register.php** : Page d'inscription permettant aux nouveaux utilisateurs de s'enregistrer. Contient un formulaire pour saisir les informations personnelles et les identifiants.
+  - **create_post.php** : Page pour créer une nouvelle publication. Elle contient un formulaire pour que l'utilisateur puisse entrer le contenu de sa publication.
+  - **view_posts.php** : Page pour afficher les publications existantes. Elle liste les publications avec des options pour commenter et liker.
+  - **comment.php** : Page ou section pour afficher et soumettre des commentaires sur une publication. Elle affiche les commentaires existants et inclut un formulaire pour en ajouter de nouveaux.
+  - **header.php** : Composant de l'en-tête commun à toutes les pages. Il peut inclure le logo, la barre de navigation et d'autres éléments communs.
+  - **footer.php** : Composant de pied de page commun aux pages, contenant des liens de contact, des informations légales, etc.
+
+### 5. **/public**
+- **Rôle général** : Contient les ressources accessibles publiquement par l'application (fichiers CSS, JavaScript et images).
+  
+  - **/assets** : Dossier regroupant toutes les ressources statiques de l'application.
+    - **/css** : Contient les feuilles de style CSS pour la mise en forme des pages de l'application (`style.css`).
+    - **/js** : Contient les fichiers JavaScript pour ajouter des fonctionnalités dynamiques à l'interface (`script.js`).
+    - **/img** : Dossier pour stocker les images utilisées dans l'application (photos de profil, images des publications, etc.).
+
+### 6. **/config**
+- **Rôle** : Contient les fichiers de configuration essentiels pour le bon fonctionnement de l'application.
+  - **database.php** : Fichier de configuration qui établit la connexion à la base de données MySQL. Il contient les informations telles que l'hôte, le nom de la base de données, l'utilisateur et le mot de passe. Il peut également inclure des paramètres de connexion avancés pour la sécurité et les performances.
+
+### 7. **.htaccess**
+- **Description** : Fichier de configuration utilisé par le serveur web Apache. Il permet de gérer la réécriture des URL, les redirections, les règles de sécurité et d'autres configurations de serveur.
+- **Rôle** : Améliore l'expérience utilisateur en permettant des URL conviviales et sécurisées. Il peut également être utilisé pour protéger certains fichiers ou dossiers de l'accès public.
+
+ 
 #### 5. **Security By Design**
 - **Protection contre les Injections SQL** : Utilisation de requêtes préparées, try-catch...
 - **Prévention des Attaques XSS** : Nettoyage des entrées utilisateur.
@@ -98,7 +189,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Sécurité prioritaire** : L'application doit inclure des mesures de protection dès le début du développement.
 - **Conformité CNIL** : Pour la gestion des données personnelles.
 - **Responsive Design** : Fonctionnement optimal sur différents types d'appareils.
-- **Règles de nommage** : Upper Camel Case pour les classes, Lower Camel Case pour les méthodes, Snake Case pour le CSS.
+- **Règles de nommage** : En anglais, Upper Camel Case pour les classes, Lower Camel Case pour les méthodes, Snake Case pour le CSS.
 
 #### 8. **Livrables**
 - Code source complet versionné et testable.
