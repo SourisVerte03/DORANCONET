@@ -83,8 +83,6 @@ Le développement couvre la création d'une application web suivant l'architectu
 ```
 **Explications détaillées de l'architecture**  
 
-Voici une explication détaillée de chaque fichier et dossier dans l'architecture spécifiée :
-
 ### 1. **index.php**
 - **Description** : C'est le point d'entrée principal de l'application. Il initialise l'application, gère le routage des requêtes vers les contrôleurs appropriés, et établit l'infrastructure nécessaire pour lancer l'application. 
 - **Rôle** : Traite la logique de redirection, inclut les fichiers nécessaires, et permet le chargement des contrôleurs en fonction des paramètres de la requête.
