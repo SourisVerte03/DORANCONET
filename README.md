@@ -80,6 +80,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 │   └── database.php
 │
 └── .htaccess
+
 **Explications détaillées de l'architecture**  
 
 Voici une explication détaillée de chaque fichier et dossier dans l'architecture spécifiée :
