@@ -42,7 +42,7 @@ Le développement couvre la création d'une application web suivant l'architectu
   - **Controllers** : Couche "Dossier" coordination entre l'utilisateur, le modèle et la couche vue.  
   - **Point d'entrée** : `index.php`.
   
-
+```
 ├── index.php
 │
 ├── /controllers
@@ -80,7 +80,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 │   └── database.php
 │
 └── .htaccess
-
+```
 **Explications détaillées de l'architecture**  
 
 Voici une explication détaillée de chaque fichier et dossier dans l'architecture spécifiée :
