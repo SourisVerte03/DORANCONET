@@ -17,6 +17,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 ##### b. **Gestion des Utilisateurs**
 - **Inscription et Connexion** :
   - Champs requis : Nom, Prénom, Date de naissance, Pseudonyme, Email, Photo de profil, Mot de passe.
+  - Vérification de l'unicité de l'email et du nom d'utilisateur.
   - Méthodes sécurisées de validation et de connexion (hashage sécurisé des mots de passe).  
 - **Déconnexion sécurisée**.
 - **Suppression de compte** :
