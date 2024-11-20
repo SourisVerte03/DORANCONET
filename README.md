@@ -11,13 +11,13 @@ Le développement couvre la création d'une application web suivant l'architectu
 ##### a. **Mur Public Commun**
 - **Fonctionnalité** : Un flux de publications accessible à tous, affiché de manière chronologique.
 - **Détails** :
-  - Affichage des publications avec pseudonyme, contenu et date.
+  - Affichage des publications avec nom et prénom, contenu et date.
   - Ordre : dernières publications en premier.
 
 ##### b. **Gestion des Utilisateurs**
 - **Inscription et Connexion** :
-  - Champs requis : Nom, Prénom, Date de naissance, Pseudonyme, Email, Photo de profil, Mot de passe.
-  - Vérification de l'unicité de l'email et du nom d'utilisateur.
+  - Champs requis : Nom, Prénom, Date de naissance, Email, Photo de profil, Mot de passe.
+  - Vérification de l'unicité de l'email.
   - Méthodes sécurisées de validation et de connexion (hashage sécurisé des mots de passe).  
 - **Déconnexion sécurisée**.
 - **Suppression de compte** :
@@ -143,7 +143,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 1. **User Story 1 : Inscription d'un Utilisateur**
    - **En tant qu'utilisateur**, je veux m'inscrire avec mes informations personnelles afin de pouvoir accéder à l'application.
    - **Critères de validation** :
-     - L'utilisateur doit pouvoir saisir son nom, prénom, date de naissance, pseudonyme, email, photo de profil et mot de passe lors de l'inscription.
+     - L'utilisateur doit pouvoir saisir son nom, prénom, date de naissance, email, photo de profil et mot de passe lors de l'inscription.
      - Validation des champs requis (email formaté, mot de passe sécurisé avec un minimum de 8 caractères alphanumériques).
      - Affichage d'un message de confirmation d'inscription réussie.
 
@@ -160,13 +160,13 @@ Le développement couvre la création d'une application web suivant l'architectu
    - **Critères de validation** :
      - L'utilisateur doit pouvoir poster un message texte.
      - Le message apparaît sur le mur public après validation.
-     - La publication contient le pseudonyme de l'utilisateur, le contenu et la date.
+     - La publication contient le nom et prénom de l'utilisateur, le contenu et la date.
 
 4. **User Story 4 : Commentaire sur une Publication**
    - **En tant qu'utilisateur connecté**, je veux commenter les publications des autres afin d'interagir avec eux.
    - **Critères de validation** :
      - L'utilisateur doit pouvoir commenter une publication existante.
-     - Le commentaire apparaît sous la publication concernée, avec pseudonyme et date.
+     - Le commentaire apparaît sous la publication concernée, avec date.
      - Les commentaires vides doivent être bloqués.
 
 5. **User Story 5 : Aimer une Publication**
