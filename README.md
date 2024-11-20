@@ -302,5 +302,10 @@ Le développement couvre la création d'une application web suivant l'architectu
   - Collabore avec le CPT pour assurer la supervision des activités de test.
   - Interagit avec les testeurs pour coordonner les efforts de test.
   - Peut travailler avec le chef de projet pour inclure des points de qualité dans la planification du projet.
+### 12. **Prestataire externe**  
+- **Responsabilité** :
+  - Collabore et aide l'équipe de développement à débloquer certaines situation bloquantes.
+- **Relations avec les autres** :
+  - Reste disponible pour toute demande venant du Scrum-Master. 
 
 
