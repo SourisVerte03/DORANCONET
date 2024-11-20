@@ -304,7 +304,7 @@ Le développement couvre la création d'une application web suivant l'architectu
   - Peut travailler avec le chef de projet pour inclure des points de qualité dans la planification du projet.
 ### 12. **Prestataire externe**  
 - **Responsabilité** :
-  - Collabore et aide l'équipe de développement à débloquer certaines situation bloquantes.
+  - Collabore et aide l'équipe de développement à débloquer certaines situations bloquantes, bugs etc..
 - **Relations avec les autres** :
   - Reste disponible pour toute demande venant du Scrum-Master. 
 
