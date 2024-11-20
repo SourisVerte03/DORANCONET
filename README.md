@@ -76,8 +76,7 @@ Le développement couvre la création d'une application web suivant l'architectu
 │       └── /img
 │           └── (images des utilisateurs)
 │
-├── /config
-│   └── database.php
+├── .env
 │
 └── .htaccess
 ```
