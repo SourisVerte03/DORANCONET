@@ -130,6 +130,11 @@ Le développement couvre la création d'une application web suivant l'architectu
 - **Description** : Fichier de configuration utilisé par le serveur web Apache. Il permet de gérer la réécriture des URL, les redirections, les règles de sécurité et d'autres configurations de serveur.
 - **Rôle** : Améliore l'expérience utilisateur en permettant des URL conviviales et sécurisées. Il peut également être utilisé pour protéger certains fichiers ou dossiers de l'accès public.
 
+### 8. **.env**
+- **DB_HOST** : Adresse IP du serveur de base de données
+- **DB_USER** : Nom d'utilisateur pour se connecter à la base de données
+- **DB_PASSWORD** : Mot de passe associé à l'utilisateur de la base de données
+
  
 #### 5. **Security By Design**
 - **Protection contre les Injections SQL** : Utilisation de requêtes préparées, try-catch...
