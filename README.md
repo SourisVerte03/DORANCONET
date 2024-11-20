@@ -205,6 +205,8 @@ Le développement couvre la création d'une application web suivant l'architectu
 ### Schéma de la base de données (MPD)
 ![MPD](https://github.com/user-attachments/assets/3139e7c6-2b4e-4ecf-9549-8c2cfcc887da)
 
+### Cas d'utilisation
+![Use_Case drawio](https://github.com/user-attachments/assets/7c41c89c-1457-4993-91ae-35a11e40442d)
 
 ### 1. **PDG / CEO (Président Directeur Général / Chief Executive Officer)**
 - **Responsabilités** :
