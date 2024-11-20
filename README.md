@@ -196,6 +196,11 @@ Le développement couvre la création d'une application web suivant l'architectu
  ### Organigramme : 
 ![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/86cdd564-cc12-4646-96f7-5ab678220e4d)
 
+
+### Schéma de la base de données (MPD)
+![MPD](https://github.com/user-attachments/assets/3139e7c6-2b4e-4ecf-9549-8c2cfcc887da)
+
+
 ### 1. **PDG / CEO (Président Directeur Général / Chief Executive Officer)**
 - **Responsabilités** :
   - Définir la vision et la stratégie globale de l'entreprise.
