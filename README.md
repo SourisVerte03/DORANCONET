@@ -201,9 +201,8 @@ Le développement couvre la création d'une application web suivant l'architectu
  ### Organigramme : 
 ![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/3edf5901-b1d0-4d92-941c-98475d2ae54b)
 
-
-### Schéma de la base de données (MPD)
-![organigramme-DORANCONET drawio](https://github.com/user-attachments/assets/4c0853a5-052a-44ad-9b23-a748107880f6)
+### Schéma de la base de données (MPD) :
+![MPD drawio](https://github.com/user-attachments/assets/2ae0b104-c153-4498-bc8c-0228d7a77fc3)
 
 ### Cas d'utilisation
 ![Use_Case drawio](https://github.com/user-attachments/assets/7c41c89c-1457-4993-91ae-35a11e40442d)
